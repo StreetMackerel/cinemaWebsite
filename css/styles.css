@@ -3,12 +3,17 @@ body{
     padding: 16px;
 }
 
+.navbar-toggler{
+  border-color: #ffe7e5;
+}
+
 .card {
     background-color:black;
     color:#ffe7e5;
-    height: 410px;
+    height: 610px;
     margin-top:65px;
     padding:15px;
+    position: relative;
 }
 .outer{
     background-color:#ffe7e5;
@@ -17,13 +22,48 @@ body{
 .ring{
     background-color:black;
     padding:2px;
+    position: relative;
+    height: 570px;
 }
+
+.ringBlock{
+    background-color:black;
+    padding:2px;
+}
+.header{
+    color: #ffe7e5;
+    background-color: #ffe7e5;
+    text-shadow:
+    -1.4px -1.4px 0 #000,
+    1.4px -1.4px 0 #000,
+    -1.4px 1.4px 0 #000,
+    1.4px 1.4px 0 #000;
+    margin-bottom: 0px;
+    padding-top:14px;
+}
+.headerInverse{
+    color: #515151;
+    background-color: #515151;
+    text-shadow:
+    -1px -1px 0 #ffe7e5,
+    1px -1px 0 #ffe7e5,
+    -1px 1px 0 #ffe7e5,
+    1px 1px 0 #ffe7e5;
+    margin-bottom: 0px;
+}
+
 .subCard{
-    background-color:#ffe7e5;
-    height: 366px;
+    height: 566px;
     padding: 10px;
-    color: black;
+    color: #ffe7e5;
     font-weight: bold;
+    transform: translate(0%, -18%);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    
 }
 .subCard button{
     padding:0;
@@ -45,38 +85,33 @@ a.navbar-brand{
     text-align:center;
     padding: 20px;
     margin-top: 10px;
-    
-   
 }
+
+.subNews{
+    font-size: 19px;
+    background-color:#ffe7e5;
+    height: 1899px;
+    margin: 0px;
+    text-align: left;
+}
+
 .cinemaClub{
     background:black;
-    height: 470px;
-    padding: 20px;
+    height: 850px;
+    padding: 10px;
     margin-top: 10px;
-}
-.bor{
-    border: 1px solid black;
-    
-}
-.subNews{
-    background-color:#ffe7e5;
-    height: 1960px;
-    margin: 0px;
+    position: relative;
+    text-align: center;
 }
 
 .subCinema{
-    background-color:#ffe7e5;
-    height: 430px;
-    margin: 0px;
-}
-
-.black{
-    background-color:black;
-    color:aliceblue;
-    height: 410px;
-    text-align:center;
-    align-content: center;
-    /*margin-bottom : 10px;*/
+  height: 430px;
+  margin: 0px;
+  color: #ffe7e5;
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .input[type=text], select {
@@ -109,3 +144,96 @@ a.navbar-brand{
   background-color: #f2f2f2;
   padding: 20px;
 }
+
+.booknow{
+    font-size: 12px;
+    color: #ffe7e5;
+    background-color: #ffe7e5;
+    text-shadow:
+    -1.4px -1.4px 0 #000,
+    1.4px -1.4px 0 #000,
+    -1.4px 1.4px 0 #000,
+    1.4px 1.4px 0 #000;
+    margin-bottom: 0px;
+    height:35px;
+    border:5px;
+    border-color:black;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px;
+}
+.booknowOuter{
+    background-color:black;
+    padding:4px;
+    margin: 0px;
+}
+.footer{
+    height: 175px;
+    padding:65px;
+    text-align: center;
+    color:#ffe7e5;
+    background-color: #474747;
+    margin: 0px;
+}
+.table{
+    padding:0px;
+    color: #515151;
+    font-weight: bolder;
+    font-size:25px;
+    margin-top:90px;
+    margin-bottom:410px;
+    text-align: center;
+    background-color: #515151;
+    text-shadow:
+    -1px -1px 0 #ffe7e5,
+    1px -1px 0 #ffe7e5,
+    -1px 1px 0 #ffe7e5,
+    1px 1px 0 #ffe7e5;
+}
+
+.cardBig {
+    background-color:black;
+    color:#ffe7e5;
+    height: 610px;
+    padding:15px;
+
+}
+.outerBig{
+    background-color:#ffe7e5;
+    padding:4px;
+}
+.ringBig{
+    background-color:black;
+    padding:2px;
+    position: relative;
+    height: 570px;
+}
+.subCardBig{
+    height: 566px;
+    padding: 15px;
+    color: #ffe7e5;
+    font-weight: bold;
+    transform: translate(0%, -18%);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    
+}
+.movie{
+    background:black;
+    height: 580px;
+    text-align:center;
+    padding: 15px;
+}
+.subMovie{
+    font-size: 19px;
+    background-color:#ffe7e5;
+    height: 504px;
+    margin: 0px;
+    text-align: left;
+    padding:5px;
+}
+
+
